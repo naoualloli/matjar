@@ -1,0 +1,26 @@
+.navbar{
+    background-color: blueviolet;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+.logo{
+    color: brown;
+    font-weight:  bold;
+    align-items: center;
+}
+.nav ul {
+    flex-basis: 300px;
+
+}
+.nav ul li{
+    display: inline;
+    margin-left: 10px;
+
+}
+.nav a{
+    tex
+}
