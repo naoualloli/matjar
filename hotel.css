@@ -45,11 +45,11 @@ a{
 }
 header{
     height: 100vh;
-    background: url(fonthotel.jpeg) center center/cover no-repeat;
+    background: url(image/fonthotel.jpeg) center center/cover no-repeat;
     position: relative;
 }
 header:hover {
-    background-image: url(5000.jpeg) ;
+    background-image: url(image/5000.jpeg) ;
 }
 #navbar {
     display: flex;
