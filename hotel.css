@@ -58,6 +58,7 @@ header:hover {
 }
 #navbar img {
     width: 60px;
+    margin-top: 10px;
     margin-left: 60px;
     border-radius: 50%;
 }
@@ -110,6 +111,7 @@ header * {
 }
 #about .title{
     text-align: center;
+    margin-top: 40px;
     margin-bottom: 4rem;
 }
 #about h2{
@@ -144,7 +146,7 @@ header * {
 }
 
 #offers{
-    height: 600px;
+    height: 500px;
     display: flex;
     justify-content: center;
     background:white center center/cover fixed no-repeat;
@@ -206,7 +208,7 @@ header * {
 }
 #menu .title {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     margin-left: 200px;
 }
 #menu h2{
@@ -243,15 +245,17 @@ header * {
     position: relative;
 }
 #gallery{
-    margin-left: 130px;
-    width: 1200px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     background: white center center/cover fixed no-repeat;
     padding: 5px;
+    margin-bottom: 80px;
 }
 #gallery h2{
     color: black;
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     text-align: center;
     font-style: italic;
     text-shadow: 4px 4px 5px blue;
@@ -275,27 +279,21 @@ header * {
     filter: blur(1px);
 }
 #contact{
-    padding: 5rem 0;
+    height: 400px;
     background: rgb(166, 166, 212);
 }
 #contact .contact-content{
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-#contact .contact-content div{
-    margin: 30px 0;
-    line-height: 1,7;
-} 
 #contact .contact-content h3{
     font-size: 25px;
     color: black;
     margin-bottom: 10px ;
     font-style: italic;
     text-shadow: 3px 3px 4px blue;
-}
-#contact .contact-content p{
-    color: grey;
 }
 #contact .contact-content i{
     color:blue ;
@@ -317,5 +315,28 @@ header * {
 } 
 #contact .contact-content a .fa-instagram:hover{
     background-image: linear-gradient(red,rgb(236, 88, 137) );
+}
+
+@media screen and (max-width : 600px){
+    #navbar{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        background-color: black;
+    }
+    #navbar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 70px 40px;
+    }
+    #navbar ul li{
+        margin: 20px 0px;
+    }
+    #contact .contact-content{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
