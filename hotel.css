@@ -278,7 +278,6 @@ header * {
     border: 2px solid blue;
     filter: blur(1px);
 }
-<<<<<<< HEAD
 
 
 
@@ -332,19 +331,19 @@ header * {
     color: white;
     font-style: oblique;
 }
-.hotels-hot .item2 button{
-    width: 250px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: large;
-    border-top-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    border: 2px solid white;
+.hotels-hot .item2 .button-btn{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: rgb(154, 154, 196);
+    color: aliceblue;
+    padding: 15px 20px;
+    border: 2px solid rgb(135, 135, 165);
+    font-size: 20px;
+    border-radius: 20px;
 }
-.hotels-hot .item2 button:hover{
-    background-color: black;
-    color: white;
-    border: 2px solid black;
+.hotels-hot .item2 .button-btn:hover{
+    box-shadow: 10px 10px 10px rgb(18, 17, 17);
+    transform: scale(1.1);
 }
 .item1:hover .item2{
     opacity: 1;
@@ -359,7 +358,7 @@ header * {
 }
 
 
-/* contact
+ /* contact */
 .contact .div-contact{
     margin-bottom: 50px;
     display: flex;
@@ -420,7 +419,7 @@ header * {
 .btn-3:hover{
     box-shadow: 10px 10px 10px gray;
     transform: scale(1.1);
-} */
+} 
 
 
 #footer{
@@ -428,34 +427,19 @@ header * {
     background: rgb(166, 166, 212);
 }
 #footer .footer-footer{
-=======
-#contact{
-    height: 400px;
-    background: rgb(166, 166, 212);
-}
-#contact .contact-content{
->>>>>>> 51b2592c65b258dc174376059a3c17831fe2808c
     height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-<<<<<<< HEAD
 #footer .footer-footer h3{
-=======
-#contact .contact-content h3{
->>>>>>> 51b2592c65b258dc174376059a3c17831fe2808c
     font-size: 25px;
     color: black;
     margin-bottom: 10px ;
     font-style: italic;
     text-shadow: 3px 3px 4px blue;
 }
-<<<<<<< HEAD
 #footer .footer-footer i{
-=======
-#contact .contact-content i{
->>>>>>> 51b2592c65b258dc174376059a3c17831fe2808c
     color:blue ;
     margin-right: 5px;
 }
@@ -478,12 +462,9 @@ header * {
 }
 
 @media screen and (max-width : 600px){
-<<<<<<< HEAD
     header{
         height: 1400px;
     }
-=======
->>>>>>> 51b2592c65b258dc174376059a3c17831fe2808c
     #navbar{
         height: 500px;
         display: flex;
@@ -500,7 +481,6 @@ header * {
     #navbar ul li{
         margin: 20px 0px;
     }
-<<<<<<< HEAD
 
     #about{
         height: 1000px;
@@ -541,11 +521,3 @@ header * {
     }
 
 }
-=======
-    #contact .contact-content{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
->>>>>>> 51b2592c65b258dc174376059a3c17831fe2808c
