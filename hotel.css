@@ -278,6 +278,7 @@ header * {
     border: 2px solid blue;
     filter: blur(1px);
 }
+<<<<<<< HEAD
 
 
 
@@ -427,19 +428,34 @@ header * {
     background: rgb(166, 166, 212);
 }
 #footer .footer-footer{
+=======
+#contact{
+    height: 400px;
+    background: rgb(166, 166, 212);
+}
+#contact .contact-content{
+>>>>>>> 51b2592c65b258dc174376059a3c17831fe2808c
     height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+<<<<<<< HEAD
 #footer .footer-footer h3{
+=======
+#contact .contact-content h3{
+>>>>>>> 51b2592c65b258dc174376059a3c17831fe2808c
     font-size: 25px;
     color: black;
     margin-bottom: 10px ;
     font-style: italic;
     text-shadow: 3px 3px 4px blue;
 }
+<<<<<<< HEAD
 #footer .footer-footer i{
+=======
+#contact .contact-content i{
+>>>>>>> 51b2592c65b258dc174376059a3c17831fe2808c
     color:blue ;
     margin-right: 5px;
 }
@@ -462,9 +478,12 @@ header * {
 }
 
 @media screen and (max-width : 600px){
+<<<<<<< HEAD
     header{
         height: 1400px;
     }
+=======
+>>>>>>> 51b2592c65b258dc174376059a3c17831fe2808c
     #navbar{
         height: 500px;
         display: flex;
@@ -481,6 +500,7 @@ header * {
     #navbar ul li{
         margin: 20px 0px;
     }
+<<<<<<< HEAD
 
     #about{
         height: 1000px;
@@ -521,3 +541,11 @@ header * {
     }
 
 }
+=======
+    #contact .contact-content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+>>>>>>> 51b2592c65b258dc174376059a3c17831fe2808c
