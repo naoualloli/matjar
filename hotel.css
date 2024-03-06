@@ -49,7 +49,8 @@ header{
     position: relative;
 }
 header:hover {
-    background-image: url(image/5000.jpeg) ;
+    background: url(image/fontermage.jpg) center center/cover no-repeat;
+    
 }
 #navbar {
     display: flex;
@@ -312,13 +313,14 @@ header * {
 .hotels-hot img{
     width: 300px;
     height: 300px;
+    border-radius: 15px;
 }
 .hotels-hot .item2{
     width: 300px;
     height: 300px;
     font-size: xx-large;
     font-style: initial;
-    background-color:blue;
+    background-image: linear-gradient(white,blue );
     text-align: center;
     position: absolute;
     bottom: 0;
@@ -326,6 +328,7 @@ header * {
     opacity: 0;
     transition-property: all;
     transition-duration: 1s;
+    border-radius: 15px;
 }
 .hotels-hot .item2 span{
     color: white;
@@ -334,12 +337,13 @@ header * {
 .hotels-hot .item2 .button-btn{
     display: inline-block;
     margin-top: 20px;
-    background-color: rgb(154, 154, 196);
-    color: aliceblue;
+    background-color: white;
+    color:black;
     padding: 15px 20px;
-    border: 2px solid rgb(135, 135, 165);
+    border: 2px solid white;
     font-size: 20px;
     border-radius: 20px;
+    width: 100px;
 }
 .hotels-hot .item2 .button-btn:hover{
     box-shadow: 10px 10px 10px rgb(18, 17, 17);
@@ -371,6 +375,7 @@ header * {
 }
 .contact .div-contact .image  img{
     width: 100%;
+    margin-left: 15px;
 }
 .contact .div-contact form{
     flex: 1 1 500px;
@@ -378,12 +383,14 @@ header * {
     box-shadow: 0 10px 20px rgba(0,0,0,.1);
     border-radius: 5px;
 }
-.contact .div-contact form .div-input{
+.contact .div-contact form .input-container{
+    position: relative;
+    margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.contact .div-contact form .div-input input{
+.contact .div-contact form .input-container input{
     width: 49%;
     margin: 10px 0;
     padding: 10px;
