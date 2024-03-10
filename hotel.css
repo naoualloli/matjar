@@ -3,12 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-html {
-    scroll-behavior: smooth;
-}
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 ul {
     list-style: none;
 }
@@ -45,11 +40,11 @@ a{
 }
 header{
     height: 100vh;
-    background: url(image/267.jpg) center center/cover no-repeat;
+    background: url(image/267.jpg) center center no-repeat;
     position: relative;
 }
 header:hover {
-    background: url(image/fontermage.jpg) center center/cover no-repeat;
+    background: url(image/fontermage.jpg) center center no-repeat;
     
 }
 #navbar {
@@ -103,6 +98,10 @@ header::before {
 header * {
     z-index: 10;
 }
+
+
+/* About */
+
 #about {
     height: 700px;
     display: flex;
@@ -146,6 +145,8 @@ header * {
     line-height: 1.6;
 }
 
+
+/* Offers */
 #offers{
     height: 500px;
     display: flex;
@@ -203,6 +204,8 @@ header * {
     gap: 30px;
 }
 
+
+/* Menu */
 #menu{
     background: white;
     padding: 5rem 0;
@@ -245,6 +248,9 @@ header * {
     margin-bottom: 10px;
     position: relative;
 }
+
+/* Gallery */
+
 #gallery{
     display: flex;
     justify-content: center;
@@ -280,7 +286,7 @@ header * {
     filter: blur(1px);
 }
 
-
+/* Hotels */
 
 #hotels{
     height: 500px;
@@ -363,6 +369,7 @@ header * {
 
 
  /* contact */
+
 .contact .div-contact{
     margin-bottom: 50px;
     display: flex;
@@ -395,8 +402,10 @@ header * {
     margin: 10px 0;
     padding: 10px;
     font-size: 17px;
+    border-radius: 15px;
     color: #333;
     background-color: rgba(135, 132, 132, 0.1);
+    
     text-transform: none;
 }
 .contact .div-contact form textarea{
@@ -412,6 +421,7 @@ header * {
     height: 150px;
     resize: none;
     width: 100%;
+    border-radius: 15px;
 }
 .btn-3{
     display: inline-block;
@@ -428,6 +438,8 @@ header * {
     transform: scale(1.1);
 } 
 
+
+/* Footer */
 
 #footer{
     height: 400px;
@@ -467,6 +479,7 @@ header * {
 #footer .footer-footer a .fa-instagram:hover{
     background-image: linear-gradient(red,rgb(236, 88, 137) );
 }
+
 
 @media screen and (max-width : 600px){
     header{
